@@ -1,0 +1,540 @@
+html {
+  padding: 0;
+  margin: 0;
+  background: #363636;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50vh;
+  background: #2D785A;
+  background-image: url('../images/BackgroundGreenWeb1920@2x.png');
+  background-repeat: repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  text-justify: center;
+}
+section {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+  background-repeat: repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+/*Estilos Del Menú*/
+section.menu {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background: #363636;  
+}
+div.menu-container  {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background: #363636;   
+}
+div.menu-container a {
+  padding: 0;
+  margin: 0;
+  width: 33.33%;
+  height: 30px;
+  line-height: 100%;
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center; 
+  font-size: 14px;
+  background: #363636; 
+}
+/* ^ Fin De Estilos Del Menú ^ */
+h1 {
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: auto;
+  color: white;
+  font-family: Oswald;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  font-size: 100px;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: auto;
+  color: black;
+  font-family: Oswald;
+  text-align: left;
+  text-shadow: .4px .4px .9px black;
+  font-size: 100px;
+  line-height: 100px;
+}
+p {
+  padding: 0;
+  margin: 0;
+  width: 800px;
+  height: auto;
+  font-family: Lato;
+  text-shadow: .4px .4px .9px black;
+  font-size: 40px;
+}
+a {
+  text-decoration: underline #2D785A;
+  color: #FFFFFF;
+  background: #363636;
+}
+footer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 50vh;
+  background: #B21223;
+  background-repeat: repeat;
+  background-size: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  height: auto;  
+}
+aside {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+@media (min-width:272px) and (max-width:299px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 30px;
+    width: 250px;
+  }
+  h2 {
+    font-size: 25px;
+    width: 250px;
+    line-height: 30px;
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 15px;
+    width: 250px;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  img {
+    width: 50%;
+    height: auto;  
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:300px) and (max-width:399px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 35px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 30px;
+    width: 90%;
+    line-height: 30px;
+  }
+  img {
+    width: 50%;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 20px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:312px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 30px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 25px;
+    width: 90%;
+    line-height: 30px;
+  }
+  img {
+    width: 50%;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 16px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:320px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 35px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 30px;
+    width: 90%;
+    line-height: 30px;
+  }
+  img {
+    width: 50%;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 16px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:400px) and (max-width:499px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 40px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 35px;
+    width: 90%;
+    line-height: 30px;
+  }
+  img {
+    width: 50%;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 20px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:500px) and (max-width:599px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 45px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 40px;
+    width: 90%;
+    line-height: 40px;
+  }
+  img {
+    width: 300px;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 25px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:600px) and (max-width:699px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 50px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 45px;
+    width: 90%;
+    line-height: 40px;
+  }
+  img {
+    width: 300px;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 30px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:700px) and (max-width:799px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 60px;
+    width: 90%;
+  }
+  h2 {
+    font-size: 55px;
+    width: 90%;
+    line-height: 50px;
+  }
+  img {
+    width: 300px;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 40px;
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:800px) and (max-width:1024px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    width: 80%;
+    font-size: 65px;
+    width: 80%;
+  }
+  h2 {
+    font-size: 60px;
+    width: 80%;
+    line-height: 55px;
+  }
+  img {
+    width: 300px;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 40px;
+    width: 80%;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
+@media (min-width:1025px) and (max-width:1920px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    height: 50vh;
+  }
+  h1 {
+    width: 800px;
+    font-size: 65px;
+    width: 80%;
+  }
+  h2 {
+    font-size: 60px;
+    width: 800px;
+    line-height: 55px;
+  }
+  img {
+    width: 300px;
+    height: auto;  
+  }  
+  section {
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 40px;
+    width: 800px;
+  }
+  footer {
+    width: 100%;
+    height: 50vh;
+  }
+  aside {
+    width: 100%;
+    height: auto;
+  }  
+}
