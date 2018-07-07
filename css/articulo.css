@@ -148,18 +148,24 @@ nav.menu {
     font-size: 10px;
     background: #363636; 
   }
-div.video-container {
+/* ^ Fin De Estilos Del Menú ^ */
+/* ^ Estilos De Los iframes YT^ */
+iframe.yt {
+  width: 260px;
+  height: 146.25px;
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
-  background: #363636; 
 }
+/* ^ Fin Estilos De Los iframes YT ^ */
+/* ^ Estilos De Los iframes FB^ */
+iframe.fb {
+  width: 260px;
+  height: 260px;
+  padding: 0;
+  margin: 0;
+}
+/* ^ Fin Estilos De Los iframes FB ^ */
+/* ^ Estilos De Los Tweets ^ */
 blockquote.twitter-tweet {
   display: flex;
   justify-content: space-around;
@@ -196,6 +202,7 @@ blockquote.twitter-tweet a:hover,
 blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
+/* ^ Fin De Estilos De Los Tweets ^ */
 /* ^ Fin De Estilos Del Menú ^ */
 @media (min-width:272px) and (max-width:299px) {
   body {
@@ -241,6 +248,18 @@ blockquote.twitter-tweet a:focus {
     width: 100%;
     height: auto;
   }
+  iframe.yt {
+    width: 260px;
+    height: 146.25px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 260px;
+    height: 260px;
+    padding: 0;
+    margin: 0;
+  }
 }
 @media (min-width:300px) and (max-width:399px) {
   body {
@@ -285,6 +304,18 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
+  }
+  iframe.yt {
+    width: 295px;
+    height: 165.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 295px;
+    height: 295px;
+    padding: 0;
+    margin: 0;
   }  
 }
 @media (min-width:312px) {
@@ -330,7 +361,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  }  
+  }
+  iframe.yt {
+    width: 295px;
+    height: 165.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 295px;
+    height: 295px;
+    padding: 0;
+    margin: 0;
+  }     
 }
 @media (min-width:320px) {
   body {
@@ -375,7 +418,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  }   
+  }
+  iframe.yt {
+    width: 295px;
+    height: 165.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 295px;
+    height: 295px;
+    padding: 0;
+    margin: 0;
+  }    
 }
 @media (min-width:400px) and (max-width:499px) {
   body {
@@ -420,7 +475,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  } 
+  }
+  iframe.yt {
+    width: 395px;
+    height: 222.1875px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 395px;
+    height: 395px;
+    padding: 0;
+    margin: 0;
+  }  
 }
 @media (min-width:500px) and (max-width:599px) {
   body {
@@ -465,7 +532,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  }  
+  }
+  iframe.yt {
+    width: 495px;
+    height:  278.4375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 495px;
+    height: 495px;
+    padding: 0;
+    margin: 0;
+  }    
 }
 @media (min-width:568px) {
     body {
@@ -510,7 +589,19 @@ blockquote.twitter-tweet a:focus {
     aside {
       width: 100%;
       height: auto;
-    }  
+    }
+    iframe.yt {
+      width: 495px;
+      height:  278.4375px;
+      padding: 0;
+      margin: 0;
+    }
+    iframe.fb {
+      width: 495px;
+      height: 495px;
+      padding: 0;
+      margin: 0;
+    }    
   }
 @media (min-width:600px) and (max-width:699px) {
   body {
@@ -555,7 +646,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  }    
+  }
+  iframe.yt {
+    width: 595px;
+    height: 334.6875px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 595px;
+    height: 595px;
+    padding: 0;
+    margin: 0;
+  }      
 }
 @media (min-width:667px) {
     body {
@@ -600,7 +703,19 @@ blockquote.twitter-tweet a:focus {
     aside {
       width: 100%;
       height: auto;
-    }    
+    }
+    iframe.yt {
+      width: 595px;
+      height: 334.6875px;
+      padding: 0;
+      margin: 0;
+    }
+    iframe.fb {
+      width: 595px;
+      height: 595px;
+      padding: 0;
+      margin: 0;
+    }       
   }
 @media (min-width:700px) and (max-width:799px) {
   body {
@@ -645,7 +760,19 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
-  }   
+  }
+  iframe.yt {
+    width: 695px;
+    height: 390.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 695px;
+    height: 695px;
+    padding: 0;
+    margin: 0;
+  }      
 }
 @media (min-width:800px) and (max-width:1024px) {
   body {
@@ -691,6 +818,18 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
+  }
+  iframe.yt {
+    width: 695px;
+    height: 390.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 695px;
+    height: 695px;
+    padding: 0;
+    margin: 0;
   }    
 }
 @media (min-width:1025px) and (max-width:1920px) {
@@ -737,5 +876,17 @@ blockquote.twitter-tweet a:focus {
   aside {
     width: 100%;
     height: auto;
+  }
+  iframe.yt {
+    width: 695px;
+    height: 390.9375px;
+    padding: 0;
+    margin: 0;
+  }
+  iframe.fb {
+    width: 695px;
+    height: 695px;
+    padding: 0;
+    margin: 0;
   } 
 }
