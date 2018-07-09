@@ -137,15 +137,15 @@ nav.menu {
   div.menu-container a {
     padding: 0;
     margin: 0;
-    width: 25%;
-    height: 30px;
+    width: 100%;
+    height: 50px;
     line-height: 100%;
     font-family: Oswald;
     display: flex;
     justify-content: space-around;
     align-content: center;
     align-items: center; 
-    font-size: 10px;
+    font-size: 20px;
     background: #363636; 
   }
 /* ^ Fin De Estilos Del Menú ^ */
@@ -218,7 +218,7 @@ blockquote.twitter-tweet a:focus {
     width: 250px;
   }
   h2 {
-    font-size: 25px;
+    font-size: 12px;
     width: 250px;
   }  
   article {
@@ -226,7 +226,7 @@ blockquote.twitter-tweet a:focus {
     height: 100%;
   }
   p {
-    font-size: 15px;
+    font-size: 12px;
     width: 250px;
     height: auto;
   }
@@ -660,7 +660,7 @@ blockquote.twitter-tweet a:focus {
     height: 100%;
   }
   p {
-    font-size: 30px;
+    font-size: 20px;
     width: 90%;
   }
   footer {
